@@ -1,4 +1,4 @@
-import { UseSelector, useDispatch, useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
 function App() {
   const counter = useSelector((state) => state.counter);
